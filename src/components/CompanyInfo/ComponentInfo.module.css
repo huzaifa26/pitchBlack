@@ -1,0 +1,95 @@
+.img{
+    position: relative;
+    width: 221px;
+    height: 215px;
+    left: -80px;
+    top: 150px;
+    background: #D5D5D5;
+    border-radius: 1000px;
+}
+
+.title{
+    margin-left: 46px;
+    width: 351px;
+    height: 17px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 14px;
+    letter-spacing: -0.45px;
+    color: #000000;
+}
+
+/* .main{
+    background-color: steelblue;
+} */
+
+.primary{
+    display: flex;
+    height: 500px;
+    width: 100%;
+}
+
+.secondry{
+    background-color: rgb(255, 255, 255);
+    margin: 0 44px;
+    padding: 20px 0;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+    justify-content: center;
+    align-self: center;
+}
+
+
+
+.form div{
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+
+.form div label{
+        height: 14px;
+        font-family: Nunito;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 14px;
+        letter-spacing: -0.45px;
+        color: #707070;
+        margin-bottom: 10px;
+}
+
+.form div input, .form div textarea{
+width: 691px;
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 14px;
+letter-spacing: -0.45px;
+color: #000000;
+border:0;
+border-bottom: 1px solid #808080;
+outline: none;
+}
+
+.button{
+width: 274px;
+height: 64px;
+background: #FFA741;
+color: #fff;
+border:0;
+margin-top: 50px;
+}
+
+.textareaDiv{
+    padding-top: 50px;
+}

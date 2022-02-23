@@ -1,0 +1,121 @@
+h3,p{
+    padding: 0;
+    margin: 0;
+}
+
+.h3{
+    border-left: 5px solid #FFA741;
+    padding-left: 12px;
+}
+
+.p{
+    padding-left: 17px;
+}
+
+.main{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    margin-left: 46px;
+}
+
+.main div{
+    background-color: blues;
+}
+
+/* .primary{
+
+} */
+
+.secondry{
+    flex-grow: 1;
+    margin-top: 40px;
+}
+
+.title{
+    width: 351px;
+    height: 17px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 14px;
+    letter-spacing: -0.45px;
+    color: #000000;
+}
+
+.heading{
+width: 351px;
+height: 17px;
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 14px;
+letter-spacing: -0.45px;
+color: #000000;
+margin-top: 50px;
+}
+
+.todoDiv{
+width: 65vw;
+background: #FFFFFF;
+padding: 20px;
+}
+
+.todoInnerDiv{
+    background-color: #F3F3F3;
+    border-radius: 20px;
+    margin-bottom: 14px;
+    padding: 20px;
+} 
+
+.upload{
+width: 351px;
+height: 17px;
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 14px;
+letter-spacing: -0.45px;
+color: #000000;
+}
+
+.documentUploadLayout{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+}
+
+.uploadCard{
+    width: 200px;
+    height: 200px;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+.uploadCard h3{
+    position: relative;
+    top: 40%;
+    left: 57%;
+    transform: translate(-50%,-50%);
+    width: 103px;
+    height: 29px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 14px;
+    letter-spacing: -0.45px;
+    color: #686868;
+}
+
+.uploadCard svg{
+    position: relative;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}

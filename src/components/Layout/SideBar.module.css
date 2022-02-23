@@ -1,0 +1,73 @@
+.main{
+    display: flex;
+}
+
+.sideBar{
+    position: relative;
+    width: 335px;
+    height: 2121px;
+    left: 0px;
+    top: 0px;
+    box-shadow: -40px 10px 40px rgba(147, 150, 178, 0.05);
+    background-color: #fff;
+}
+
+.sideBar .div{
+    position: relative;
+    margin-top: -10px;
+    width: 325px;
+    height: 61px;
+    left: 1px;
+    background: #FFA741;
+    box-shadow: -40px 10px 40px rgba(147, 150, 178, 0.05);
+    border-radius: 5px;
+}
+
+.sideBar .div1{
+    position: relative;
+    margin-top: -10px;
+    width: 325px;
+    height: 61px;
+    left: 1px;
+    background: #ffffff;
+    box-shadow: -40px 10px 40px rgba(147, 150, 178, 0.05);
+    border-radius: 5px;
+}
+
+.sideBar div ul li {
+    cursor: pointer;
+    list-style-type: none;
+    position: absolute;
+    height: 32px;
+    left: 101px;
+    top: 15px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: -0.45px;
+    color: #FFFFFF;
+}
+
+.sideBar div ul .li1 {
+    cursor: pointer;
+    list-style-type: none;
+    position: absolute;
+    height: 32px;
+    left: 101px;
+    top: 15px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: -0.45px;
+    color: #000000;
+}
+
+.mainSection{
+    padding: 10px;
+    height: 2121px;
+    width: 100%;
+}

@@ -1,0 +1,12 @@
+import styles from "./BankAccount.module.css";
+
+function BankAccount() {
+    return ( 
+        <div>
+            <h2>Captable information</h2>
+            <h1>Comming Soon</h1>
+        </div>    
+    );
+}
+
+export default BankAccount;
