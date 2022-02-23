@@ -19,14 +19,6 @@ h3,p{
     margin-left: 46px;
 }
 
-.main div{
-    background-color: blues;
-}
-
-/* .primary{
-
-} */
-
 .secondry{
     flex-grow: 1;
     margin-top: 40px;

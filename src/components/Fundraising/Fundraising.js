@@ -1,4 +1,3 @@
-import styles from "./Fundraising.module.css";
 
 
 function Fundraising() {

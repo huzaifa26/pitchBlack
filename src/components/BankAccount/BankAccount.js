@@ -1,4 +1,3 @@
-import styles from "./BankAccount.module.css";
 
 function BankAccount() {
     return ( 

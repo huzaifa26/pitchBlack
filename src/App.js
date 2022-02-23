@@ -4,12 +4,11 @@ import Dashboard from "./components/Dashboard/Dashboard";
 import CompanyInfo from "./components/CompanyInfo/CompanyInfo";
 import Team from "./components/Team/Team";
 import Captable from "./components/Captable/Captable"
-import DocumentLibrary from "./components/DocumentLibrary/DocumentLibrary"
+import DocumentLocker from "./components/DocumentLocker/DocumentLocker"
 import Fundraising from "./components/Fundraising/Fundraising"
 import BankAccount from "./components/BankAccount/BankAccount"
 import Setting from "./components/Setting/Setting"
-import Alerts from "./components/Alerts/Alerts"
-import PushMessage from "./components/PushMessage/PushMessage"
+import UserProfile from "./components/UserProfile/UserProfile";
 
 
 
@@ -40,8 +39,8 @@ function App() {
           />
 
           <Route
-            path="/documentLibrary"
-            element={<Layout body={<DocumentLibrary />} />}
+            path="/documentLocker"
+            element={<Layout body={<DocumentLocker />} />}
           />
 
           <Route
@@ -58,15 +57,9 @@ function App() {
             path="/setting"
             element={<Layout body={<Setting />} />}
           />
-
           <Route
-            path="/alerts"
-            element={<Layout body={<Alerts />} />}
-          />
-
-          <Route
-            path="/pushMessage"
-            element={<Layout body={<PushMessage />} />}
+            path="/userProfile"
+            element={<Layout body={<UserProfile />} />}
           />          
         </Routes>
     </Router>

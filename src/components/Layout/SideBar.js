@@ -32,9 +32,9 @@ function SideBar(props){
         //   icon: <GroupIcon />,
         },
         {
-          text: "Document Library",
-          route: "/documentLibrary",
-          onClick: () => navigate("/documentLibrary"),
+          text: "Document Locker",
+          route: "/documentLocker",
+          onClick: () => navigate("/documentLocker"),
         //   icon: <RoomIcon />,
         },
         {
@@ -54,19 +54,7 @@ function SideBar(props){
           route: "/setting",
           onClick: () => navigate("/setting"),
         //   icon: <PlaylistAddIcon />,
-        },
-        {
-          text: "Alerts",
-          route: "/alerts",
-          onClick: () => navigate("/alerts"),
-        //   icon: <AnnouncementIcon />,
-        },
-        {
-          text: "Push Message",
-          route: "/pushMessage",
-          onClick: () => navigate("/pushMessage"),
-        //   icon: <SendIcon />,
-        }    
+        } 
       ];
 
 

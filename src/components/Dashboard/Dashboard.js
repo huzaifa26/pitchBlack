@@ -6,7 +6,7 @@ function Dashboard(){
     return(
         <div className={styles.main}>
             <div className={styles.primary}>
-                <div>
+                <div className={styles.abc}>
                     <h1 className={styles.title}>Company Dashboard</h1>
                     <h2 className={styles.heading}>To Do’s</h2>
                 </div>

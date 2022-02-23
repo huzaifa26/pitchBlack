@@ -1,10 +1,9 @@
-import styles from "./Captable.module.css";
 
 function Captable() {
     return ( 
     <div>
-        <h2>Captable information</h2>
-        <h1>Comming Soon</h1>
+        <h2 >Captable information</h2>
+        <h1 >Comming Soon</h1>
     </div>
     );
 }
