@@ -3,6 +3,9 @@ import ToDoList from "./ToDoList";
 import DocumentsUpload from "./DocumentsUpload";
 
 function Dashboard(){
+
+    
+
     return(
         <div className={styles.main}>
             <div className={styles.primary}>
@@ -10,7 +13,7 @@ function Dashboard(){
                     <h1 className={styles.title}>Company Dashboard</h1>
                     <h2 className={styles.heading}>To Do’s</h2>
                 </div>
-                <div className={styles.todoDiv}>
+                <div  className={styles.todoDiv}>
                     <ToDoList title={"Update your company mission"} body={"This is what you stand for as a company"}/>
                     <ToDoList title={"Fill out problem statements"} body={"This is your why. We need a strong problem identity and solution that you think will solve this problem."}/>
                     <ToDoList title={"Record or update 2-minute pitch video"} body={"This video will hel investors get a deeper look into your personality as founders, and a bettter understanding of the product."}/>

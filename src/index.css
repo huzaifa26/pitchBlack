@@ -17,6 +17,8 @@ body {
   color: #212529;
   
   text-align: left;
-  background-color: #E5E5E5  ;
+  background-color: #E5E5E5;
+  /* position: relative; */
+  z-index: 100;
 }
 

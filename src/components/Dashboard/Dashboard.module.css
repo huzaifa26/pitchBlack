@@ -56,6 +56,7 @@ padding: 20px;
 }
 
 .todoInnerDiv{
+    cursor: pointer;
     background-color: #F3F3F3;
     border-radius: 20px;
     margin-bottom: 14px;
@@ -81,6 +82,7 @@ color: #000000;
 }
 
 .uploadCard{
+    cursor: pointer;
     width: 200px;
     height: 200px;
     background: #FFFFFF;
@@ -110,4 +112,14 @@ color: #000000;
     top: 45%;
     left: 50%;
     transform: translate(-50%,-50%);
+}
+
+.overlay{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width: 99vw;
+    height: 4000px;
+    background: rgba(0, 0, 0, 0.5)
 }

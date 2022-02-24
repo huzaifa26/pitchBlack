@@ -1,0 +1,96 @@
+.main {
+  position: absolute;
+  width: 600px;
+  height: 400px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top:350px
+}
+
+.main h1{
+width: 470px;
+height: 40px;
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 40px;
+letter-spacing: -0.01em;
+color: #000000;
+margin:0;
+}
+
+.textareaDiv{
+    margin-left: -30px;
+    margin-right: 34px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textareaDiv label {
+    margin-left: -30px;
+
+  height: 40px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 40px;
+  letter-spacing: -0.01em;
+  color: #707070;
+}
+
+.textareaDiv textarea {
+  margin-top: 50px;
+  width: 400px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 14px;
+  letter-spacing: -0.45px;
+  color: #000000;
+  border: 0;
+  border-bottom: 1px solid #808080;
+  outline: none;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.submit{
+width: 180px;
+height: 50px;
+background: #FFA741;
+position: relative;
+top: 30px;
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 40px;
+letter-spacing: -0.01em;
+color: #FFFFFF;
+border: 0;
+cursor: pointer;
+}
+
+.imageCross{
+  cursor: pointer;
+  position: relative;
+  width: 30px;
+  height: 30px;
+  margin: 0;
+  padding:0;
+  left: 44%;
+  top:-15%
+}

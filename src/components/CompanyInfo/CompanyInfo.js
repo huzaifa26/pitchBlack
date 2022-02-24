@@ -1,6 +1,34 @@
+import { useRef } from "react";
 import styles from "./ComponentInfo.module.css";
+import { useNavigate } from 'react-router-dom';
+
 
 function CompanyInfo(){
+  const navigate = useNavigate();
+
+
+    const companyNameRef=useRef();
+    const emailRef=useRef();
+    const aboutCompanyRef=useRef();
+    const companyMissionRef=useRef();
+    const companyVisionRef=useRef();
+    const companyDescriptionRef=useRef();
+
+    const companyInfoFormHandler=e=>{
+        e.preventDefault();
+        const companyInfo={
+            companyName:companyNameRef.current.value,
+            email:emailRef.current.value,
+            aboutCompany:aboutCompanyRef.current.value,
+            companyMission:companyMissionRef.current.value,
+            companyVision:companyVisionRef.current.value,
+            companyDescription:companyDescriptionRef.current.value,
+        }
+
+        console.log(companyInfo)
+        navigate('/');
+    }
+
     return(
         <div className={styles.main}>
             <div className={styles.primary}>
@@ -9,32 +37,32 @@ function CompanyInfo(){
             </div>
 
             <div className={styles.secondry}>
-                <form className={styles.form}>
+                <form onSubmit={companyInfoFormHandler} className={styles.form}>
                     <div>
                         <label>Company Name</label>
-                        <input type="text" defaultValue={"Pitch Black, Inc"} name="companyName"/>
+                        <input ref={companyNameRef} type="text" required defaultValue={"Pitch Black, Inc"}/>
                     </div>
 
                     <div>
                         <label>Email</label>
-                        <input type="text" defaultValue={"tre@pblack.io"} name="email"/>
+                        <input ref={emailRef} type="text" required defaultValue={"tre@pblack.io"}/>
                     </div>
 
                     <div>
-                        <input type="text" placeholder={"What does your company do in 2 sentences?"} name="email"/>
+                        <input ref={aboutCompanyRef} required type="text" placeholder={"What does your company do in 2 sentences?"} />
                     </div>
 
                     <div>
-                        <input type="text" placeholder={"What is your company’s mission statement?"} name="email"/>
+                        <input ref={companyMissionRef} required type="text" placeholder={"What is your company’s mission statement?"}/>
                     </div>
 
                     <div>
-                        <input type="text" placeholder={"What is your company’s vision statement?"} name="email"/>
+                        <input ref={companyVisionRef} required type="text" placeholder={"What is your company’s vision statement?"}/>
                     </div>
 
                     <div className={styles.textareaDiv}>
                         <label>Provide an indepth description of your company.</label>
-                        <textarea rows={10} cols={5} type="text" placeholder={"Write 3-4 sentences to answer this"} name="textarea"/>
+                        <textarea ref={companyDescriptionRef} required rows={10} cols={5} type="text" placeholder={"Write 3-4 sentences to answer this"} name="textarea"/>
                     </div>
 
                     <div>

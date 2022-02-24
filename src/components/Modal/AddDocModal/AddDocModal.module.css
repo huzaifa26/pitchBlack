@@ -1,0 +1,137 @@
+.main {
+  position: absolute;
+  width: 800px;
+  height: 600px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  z-index: 9999;
+  top: 1260px;
+}
+
+.heading h1 {
+  margin: 0 80px;
+  width: 303px;
+  height: 40px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: -0.01em;
+  color: #000000;
+}
+
+.heading p {
+  margin: 0 80px;
+  width: 729px;
+  height: 40px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 40px;
+  letter-spacing: -0.01em;
+  color: #707070;
+}
+
+.progressBar {
+  padding: 0;
+  margin: 0 110px;
+  margin-top: -18px;
+}
+
+.uploadDoc {
+  margin: 0 auto;
+  width: 630px;
+  height: 280px;
+  border: 1px solid rgba(112, 112, 112, 0.85);
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 100px;
+  height: 84px;
+}
+
+.uploadFile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.clickHere {
+  width: 140px;
+  height: 14px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 14px;
+  letter-spacing: -0.45px;
+  color: #5987fc;
+}
+
+.info {
+  /* You can also upload files by */
+
+  width: 303px;
+  height: 40px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 40px;
+  letter-spacing: -0.01em;
+  color: #707070;
+}
+
+.filetype {
+  width: 125px;
+  height: 40px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 40px;
+  letter-spacing: -0.01em;
+  color: #707070;
+}
+
+.imageCross {
+  cursor: pointer;
+  position: relative;
+  width: 30px;
+  height: 30px;
+  margin: 0;
+  padding: 0;
+  left: 90%;
+  top: 3%;
+}
+
+.buttonDiv {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.submit {
+  width: 180px;
+  height: 50px;
+  background: #ffa741;
+  position: relative;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 40px;
+  letter-spacing: -0.01em;
+  color: #ffffff;
+  border: 0;
+  cursor: pointer;
+}
