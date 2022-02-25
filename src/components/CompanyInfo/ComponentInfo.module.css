@@ -6,6 +6,7 @@
     top: 150px;
     background: #D5D5D5;
     border-radius: 1000px;
+    object-fit: cover;
 }
 
 .title{

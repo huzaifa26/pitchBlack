@@ -123,3 +123,19 @@ color: #000000;
     height: 4000px;
     background: rgba(0, 0, 0, 0.5)
 }
+
+.completedMessage{
+position: absolute;
+width: 823px;
+height: 120px;
+left: 378px;
+top: 235px;
+font-family: Nunito;
+font-style: normal;
+font-weight: 600;
+font-size: 39px;
+line-height: 40px;
+/* or 103% */
+letter-spacing: -0.45px;
+color: #000000;
+}

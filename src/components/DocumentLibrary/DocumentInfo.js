@@ -1,5 +1,5 @@
 import { useState } from "react";
-import styles from "./DocumentLocker.module.css";
+import styles from "./DocumentLibrary.module.css";
 import DocumentTable from "./DocumentTable";
 
 

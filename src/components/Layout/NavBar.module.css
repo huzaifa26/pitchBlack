@@ -1,58 +1,102 @@
-.nav{
-    height: 96px;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    background-color: #fff;
+.nav {
+  height: 96px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  background-color: #ffffff;
 }
 
-.nav div:nth-child(2){
-    height: 96px;
-    width: 100vw;
+.nav div:nth-child(2) {
+  margin: 0;
+  height: 96px;
+  width: 100vw;
 }
 
-.div{
-    width: 335px;
-    height: 96px;
-    cursor: pointer;
+.div {
+  margin: 0;
+  width: 325px;
+  height: 96px;
+  cursor: pointer;
 }
 
-.img{
-border-radius: 50px;
-position: absolute;
-width: 40px;
-height: 40px;
-left: 49px;
-top: 30px;
+.img {
+  border-radius: 50px;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 49px;
+  top: 30px;
+  object-fit: cover;
 }
 
-.h1{
-    font-family: Nunito;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 32px;
-    letter-spacing: -0.45px;
-    color: #1F1D36;
-    position: absolute;
-    width: 138px;
-    height: 32px;
-    left: 105px;
-    top: 15px;
+.h1 {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: -0.45px;
+  color: #1f1d36;
+  position: absolute;
+  width: 138px;
+  height: 32px;
+  left: 105px;
+  top: 15px;
 }
 
-.title{
-position: absolute;
-width: 230px;
-height: 39px;
-left: 648px;
-top: 25px;
-font-family: Nunito;
-font-style: normal;
-font-weight: bold;
-font-size: 36px;
-line-height: 40px;
-letter-spacing: -0.01em;
-color: #1F1D36;
-margin: auto auto;
+.outermain{
+  width: 325px;
+}
+
+.titleDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  width: 230px;
+  height: 39px;
+  /* left: 648px; */
+  /* top: 25px; */
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: -0.01em;
+  color: #1f1d36;
+}
+
+.logoutimg {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 40px;
+  left: 250px;
+}
+
+.logoutbutton {
+  position: absolute;
+  width: 159px;
+  height: 66px;
+  left: 250px;
+  top: 60px;
+  background: #ffffff;
+  box-shadow: 0px 1px 8px -1px rgba(0, 0, 0, 0.25);
+  z-index: 9999;
+  border: 0;
+
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30px;
+  color: #000000;
+  transition: all 0.3s ease-in;
+}
+
+.logoutbutton:hover {
+  background-color: rgba(255, 167, 65, 1);
+  color: white;
 }

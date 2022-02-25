@@ -4,7 +4,7 @@ import Dashboard from "./components/Dashboard/Dashboard";
 import CompanyInfo from "./components/CompanyInfo/CompanyInfo";
 import Team from "./components/Team/Team";
 import Captable from "./components/Captable/Captable"
-import DocumentLocker from "./components/DocumentLocker/DocumentLocker"
+import DocumentLibrary from "./components/DocumentLibrary/DocumentLibrary"
 import Fundraising from "./components/Fundraising/Fundraising"
 import BankAccount from "./components/BankAccount/BankAccount"
 import Setting from "./components/Setting/Setting"
@@ -39,8 +39,8 @@ function App() {
           />
 
           <Route
-            path="/documentLocker"
-            element={<Layout body={<DocumentLocker />} />}
+            path="/documentLibrary"
+            element={<Layout body={<DocumentLibrary />} />}
           />
 
           <Route

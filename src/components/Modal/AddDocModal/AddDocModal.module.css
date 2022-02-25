@@ -36,14 +36,33 @@
   color: #707070;
 }
 
-.progressBar {
+.progressBarDiv {
   padding: 0;
-  margin: 0 110px;
-  margin-top: -18px;
+  margin: 10px 110px;
+  display: flex;
+  align-items: center;
+}
+
+.progressBarDiv img{
+  padding-right: 20px;
+}
+
+.progressOuter{
+  height: 14px;
+  width: 200px;
+  background-color: rgba(112, 112, 112, 0.21);
+  border-radius: 15px;
+}
+
+.progressInner{
+  height: 14px;
+  width: 120px;
+  background-color: rgba(41, 122, 181, 1);
+  border-radius: 15px;
 }
 
 .uploadDoc {
-  margin: 0 auto;
+  margin: 20px auto;
   width: 630px;
   height: 280px;
   border: 1px solid rgba(112, 112, 112, 0.85);

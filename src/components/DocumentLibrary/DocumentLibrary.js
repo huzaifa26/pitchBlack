@@ -1,4 +1,4 @@
-import styles from "./DocumentLocker.module.css";
+import styles from "./DocumentLibrary.module.css";
 import DocumentInfo from "./DocumentInfo";
 
 function DocumentLibrary() {

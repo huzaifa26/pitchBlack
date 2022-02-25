@@ -10,28 +10,37 @@
     top: 0px;
     box-shadow: -40px 10px 40px rgba(147, 150, 178, 0.05);
     background-color: #fff;
+    padding-top: 10px;
+
 }
 
 .sideBar .div{
+    cursor: pointer;
     position: relative;
-    margin-top: -10px;
     width: 325px;
     height: 61px;
     left: 1px;
     background: #FFA741;
     box-shadow: -40px 10px 40px rgba(147, 150, 178, 0.05);
     border-radius: 5px;
+    display: flex;
 }
 
 .sideBar .div1{
+    cursor: pointer;
     position: relative;
-    margin-top: -10px;
     width: 325px;
     height: 61px;
     left: 1px;
     background: #ffffff;
     box-shadow: -40px 10px 40px rgba(147, 150, 178, 0.05);
     border-radius: 5px;
+    display: flex;
+    transition: all 0.3s ease-in;
+}
+
+.sideBar .div1:hover{
+    background: rgba(255, 167, 65, 0.7);
 }
 
 .sideBar div ul li {
@@ -70,4 +79,15 @@
     padding: 10px;
     height: 2121px;
     width: 100%;
+}
+
+.img{
+    margin-top: 2px;
+    margin-left: 20px;
+}
+
+.imgAlert{
+    margin-left: 125px;
+    width: 25px;
+    height: 25px;
 }

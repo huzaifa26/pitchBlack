@@ -18,7 +18,7 @@ body {
   
   text-align: left;
   background-color: #E5E5E5;
-  /* position: relative; */
+  position: relative;
   z-index: 100;
 }
 

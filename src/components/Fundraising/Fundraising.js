@@ -1,11 +1,11 @@
-
+import styles from ".././Captable/Captable.module.css"
 
 function Fundraising() {
     return ( 
-        <div>
-            <h2>Captable information</h2>
+        <div className={styles.commingSoon}>
+            <h2>Fundraising information</h2>
             <h1>Comming Soon</h1>
-        </div>    
+        </div>
     );
 }
 
